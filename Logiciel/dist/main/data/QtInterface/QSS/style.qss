@@ -1,0 +1,74 @@
+#mainPage1,#mainPage2,#mainPage3,#mainPage35,#mainPage4{background-color: white;}
+#mainPage1 QLabel,#mainPage2  QLabel,#mainPage3 QLabel,#mainPage35 QLabel,#mainPage4 QLabel, #checkBox{color: #111;}
+
+#logo_label_2, #logo_label_3 {
+    color: #fff;
+}
+
+QComboBox {
+    color: #111;
+    border-radius: 3px;
+    border: 1px solid #2b727e;
+    background-color: transparent;
+}
+
+QComboBox QAbstractItemView {
+    color: #111;
+}
+
+#tableWidget {
+    width: 100%;
+    color: #111;
+}
+#tableWidget QPushButton {
+    border-radius: 0px!important;
+}
+QHeaderView {
+    text-align: left;
+}
+
+#config_tabWidget #tab_1, #config_tabWidget #tab_2, #config_tabWidget #tab_3, #config_tabWidget #tab_4, #list_tabWidget #tab_5, #list_tabWidget #tab_6 {
+    background: #fff!important;
+}
+
+QLabel QToolTip * { 
+    background-color: black!important; 
+    color: white!important; 
+    border: #2b727e solid 1px!important;
+}
+
+QTableWidget, QHeaderView::section, QTableView QTableCornerButton::section {
+    background-color: none;
+}
+
+#config_tabWidget #tab_1,#config_tabWidget #tab_2,#config_tabWidget #tab_3,#config_tabWidget #tab_4, QTabBar::tab:!selected, QComboBox QAbstractItemView, QLineEdit {
+    background-color: #fff;
+}
+
+/* From Dark to Light */
+#mainPage1,#mainPage2,#mainPage3,#mainPage35,#mainPage4{background-color: white;}
+#mainPage1 QLabel,#mainPage2  QLabel,#mainPage3 QLabel,#mainPage35 QLabel,#mainPage4 QLabel{color: #111;}
+
+#centralwidget, #mainPage_35, QTableWidget, QHeaderView::section, QTableView::QTableCornerButton::section, QComboBox QAbstractItemView, QLineEdit, #config_tabWidget #tab_1,#config_tabWidget #tab_2,#config_tabWidget #tab_3,#config_tabWidget #tab_4, #list_tabWidget #tab_5, #list_tabWidget #tab_6, QTabBar::tab:!selected {
+    background-color: white;
+}
+
+#verticalFrame QLabel, #general_status, #label_11, #mainPage_35 QLabel, QTableWidget, QHeaderView::section, #page_2 QLabel, QComboBox, QComboBox QAbstractItemView, QDateEdit, QTabWidget QLabel, QLineEdit, QTabBar::tab, QGroupBox, #tableTitle_1, #tableTitle_2, #tableTitle_3, #tableTitle_4, #pageTitle {
+    color: #111;
+}
+
+QTabWidget::pane, QGroupBox {
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-color: rgb(224, 224, 224);
+}
+
+QTabBar::tab:selected {
+    background-color: rgb(224, 224, 224);
+}
+
+QComboBox QAbstractItemView {
+    color: #111;
+}

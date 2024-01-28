@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>assets/icons/wifi.png</file>
+    <file>assets/icons/close.png</file>
+    <file>assets/icons/search.png</file>
+    <file>assets/icons/export.png</file>
+    <file>assets/icons/home.png</file>
+    <file>assets/icons/import.png</file>
+    <file>assets/icons/info.png</file>
+    <file>assets/icons/next.png</file>
+    <file>assets/icons/previous.png</file>
+    <file>assets/icons/settings.png</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>assets/logo_full.png</file>
+    <file>assets/logo_full_dark.png</file>
+    <file>assets/miage.png</file>
+    <file>assets/miage_dark.png</file>
+    <file>assets/uca.png</file>
+    <file>assets/uca_dark.png</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>assets/logo/logo_3d.png</file>
+    <file>assets/logo/logo_3d_inc.ico</file>
+    <file>assets/logo/logo_3d_inc.png</file>
+    <file>assets/logo/logo_white_inc.png</file>
+  </qresource>
+</RCC>
